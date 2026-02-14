@@ -5,6 +5,15 @@
   --gray-light: #f8fafc;
   --border: #e2e8f0;
 }
+.cart-main-container {
+  background-color: var(--gray-light);
+  padding: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  top: 0;
+}
 
 .cart-section {
   max-width: 1000px;

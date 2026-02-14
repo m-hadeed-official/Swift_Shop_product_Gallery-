@@ -8,6 +8,7 @@ function makeProductCard(obj, target) {
   const img = document.createElement("img");
   img.src = obj.image.imageURL;
   img.alt = obj.image.imageAlt;
+  img.loading = "lazy";
 
   const badge = document.createElement("span");
   badge.classList.add("category-badge");
@@ -43,6 +44,7 @@ function makeProductCard(obj, target) {
 
   const button = document.createElement("button");
   button.classList.add("add-to-cart-btn");
+  button.onclick = () => addToCart(obj.id);
 
   const icon = document.createElement("i");
   icon.classList.add("fas", "fa-cart-plus");
