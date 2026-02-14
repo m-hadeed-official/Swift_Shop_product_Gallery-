@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwiftShop | Responsive Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- <script src="scripts/productCard.js" type="module" async></script> -->
+    <script src="script.js" type="module" async></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div id="logo" class="logo"><i class="fas fa-bolt"></i> swiftshop</div>
+
+        <div class="search-wrapper">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="product-search-bar" placeholder="Search..." />
+        </div>
+
+        <button id="cart-btn" class="cart-button">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-badge">3</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="content-wrapper">
+      <section id="filter-section" class="filter-section">
+        <div class="filter-container" id="filter-container"></div>
+      </section>
+
+      <div id="product-grid" class="product-grid"></div>
+    </main>
+  </body>
+</html>
