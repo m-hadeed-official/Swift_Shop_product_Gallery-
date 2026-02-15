@@ -15,6 +15,7 @@
       "categoryBadge": "Footwear",
       "description": "Engineered with breathable mesh and responsive cushioning for maximum comfort during long-distance runs.",
       "priceCurrency": "$",
+      "qnty": 1,
       "price": 120.0,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
@@ -26,6 +27,7 @@
       "title": "Aero-Dry Training Tee",
       "category": "Active Apparel",
       "categoryBadge": "Apparel",
+      "qnty": 1,
       "description": "Moisture-wicking fabric designed to keep you cool during high-intensity interval training sessions.",
       "priceCurrency": "$",
       "price": 45.0,
@@ -42,6 +44,7 @@
       "description": "Track your heart rate, GPS pace, and recovery metrics with a crystal clear OLED display.",
       "priceCurrency": "$",
       "price": 199.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
         "imageAlt": "Smartwatch"
@@ -52,6 +55,7 @@
       "title": "Pro-Grip Yoga Mat",
       "category": "Fitness Equipment",
       "categoryBadge": "Equipment",
+      "qnty": 1,
       "description": "Extra thick 6mm padding with non-slip texture for perfect balance and joint protection.",
       "priceCurrency": "$",
       "price": 55.0,
@@ -64,6 +68,7 @@
       "id": 5,
       "title": "Therma-Gun Pro",
       "category": "Muscle Recovery",
+      "qnty": 1,
       "categoryBadge": "Recovery Tech",
       "description": "Quiet-glide technology with 5 speed settings to relieve muscle soreness and stiffness instantly.",
       "priceCurrency": "$",
@@ -78,6 +83,7 @@
       "title": "Trail-Seeker Boots",
       "category": "Outdoor Footwear",
       "categoryBadge": "Footwear",
+      "qnty": 1,
       "description": "Waterproof membrane and aggressive lug patterns for superior traction on muddy slopes.",
       "priceCurrency": "$",
       "price": 165.0,
@@ -89,6 +95,7 @@
     {
       "id": 7,
       "title": "Iron-Grip Kettlebell",
+      "qnty": 1,
       "category": "Strength Equipment",
       "categoryBadge": "Equipment",
       "description": "Solid cast iron construction with a wide handle for smooth transitions and heavy swings.",
@@ -107,6 +114,7 @@
       "description": "High-density foam with a grid surface for deep tissue trigger point therapy.",
       "priceCurrency": "$",
       "price": 30.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1591130901020-ef93616f7ad5?w=600",
         "imageAlt": "Foam Roller"
@@ -120,6 +128,7 @@
       "description": "Aerodynamic design with MIPS technology for ultimate protection during road cycling.",
       "priceCurrency": "$",
       "price": 140.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1557161181-b12e364009a0?w=600",
         "imageAlt": "Cycling Helmet"
@@ -132,6 +141,7 @@
       "categoryBadge": "Accessories",
       "description": "Vacuum-insulated stainless steel keeps drinks ice-cold for 24 hours or hot for 12.",
       "priceCurrency": "$",
+      "qnty": 1,
       "price": 32.0,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1523362628744-4c2f3f1e1b71?w=600",
@@ -142,6 +152,7 @@
       "id": 11,
       "title": "Elite Cycling Shorts",
       "category": "Active Apparel",
+      "qnty": 1,
       "categoryBadge": "Apparel",
       "description": "Padded chamois and flatlock seams for long-distance comfort on the saddle.",
       "priceCurrency": "$",
@@ -158,6 +169,7 @@
       "categoryBadge": "Accessories",
       "description": "Padded palms and wrist wraps for maximum stability during heavy compound lifts.",
       "priceCurrency": "$",
+      "qnty": 1,
       "price": 25.0,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600",
@@ -171,6 +183,7 @@
       "categoryBadge": "Equipment",
       "description": "Lightweight EVA foam blocks to deepen stretches and improve alignment.",
       "priceCurrency": "$",
+      "qnty": 1,
       "price": 18.0,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600",
@@ -182,6 +195,7 @@
       "title": "Velocity Sprint Spike",
       "category": "Performance Footwear",
       "categoryBadge": "Footwear",
+      "qnty": 1,
       "description": "Lightweight spike plate for explosive power and speed on the track.",
       "priceCurrency": "$",
       "price": 110.0,
@@ -194,6 +208,7 @@
       "id": 15,
       "title": "Titanium Jump Rope",
       "category": "Conditioning Gear",
+      "qnty": 1,
       "categoryBadge": "Equipment",
       "description": "High-speed ball bearings for smooth rotation during double-unders and cardio work.",
       "priceCurrency": "$",
@@ -208,6 +223,7 @@
       "title": "Luxe Gym Duffel",
       "category": "Bags & Carry",
       "categoryBadge": "Accessories",
+      "qnty": 1,
       "description": "Water-resistant exterior with a dedicated ventilated compartment for sweaty shoes.",
       "priceCurrency": "$",
       "price": 80.0,
@@ -223,6 +239,7 @@
       "categoryBadge": "Recovery Tech",
       "description": "Full-length compression to reduce muscle oscillation and improve blood flow.",
       "priceCurrency": "$",
+      "qnty": 1,
       "price": 90.0,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1506629082923-376df626c11d?w=600",
@@ -232,6 +249,7 @@
     {
       "id": 18,
       "title": "Carbon Fiber Racket",
+      "qnty": 1,
       "category": "Sports Equipment",
       "categoryBadge": "Equipment",
       "description": "Optimized weight distribution for powerful smashes and precise control.",
@@ -276,6 +294,7 @@
       "description": "Adjustable incline and decline settings with high-density foam padding.",
       "priceCurrency": "$",
       "price": 210.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600",
         "imageAlt": "Weight Bench"
@@ -289,6 +308,7 @@
       "description": "Tapered fit with four-way stretch for mobility and comfort at the gym.",
       "priceCurrency": "$",
       "price": 70.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1552664110-ad26a9718400?w=600",
         "imageAlt": "Joggers"
@@ -302,6 +322,7 @@
       "description": "Hexagonal design prevents rolling; rubber coating protects your floors.",
       "priceCurrency": "$",
       "price": 130.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1586401100295-7a8096fd231a?w=600",
         "imageAlt": "Dumbbells"
@@ -315,6 +336,7 @@
       "description": "Flexible gel wrap designed for targeted cold therapy on knees and elbows.",
       "priceCurrency": "$",
       "price": 25.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600",
         "imageAlt": "Ice Pack"
@@ -328,6 +350,7 @@
       "description": "Anti-blister technology with arch support and cushioned impact zones.",
       "priceCurrency": "$",
       "price": 15.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=600",
         "imageAlt": "Running Socks"
@@ -341,6 +364,7 @@
       "description": "Set of 5 natural latex bands ranging from extra light to extra heavy.",
       "priceCurrency": "$",
       "price": 35.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600",
         "imageAlt": "Resistance Bands"
@@ -354,6 +378,7 @@
       "description": "Lightweight, chlorine-resistant fabric with a secure drawstring waist.",
       "priceCurrency": "$",
       "price": 40.0,
+      "qnty": 1,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1502389614483-e475fc34407e?w=600",
         "imageAlt": "Swim Trunks"
@@ -366,6 +391,7 @@
       "categoryBadge": "Accessories",
       "description": "LED-powered reflective band for high visibility during early morning runs.",
       "priceCurrency": "$",
+      "qnty": 1,
       "price": 18.0,
       "image": {
         "imageURL": "https://images.unsplash.com/photo-1510017803434-a899398421b3?w=600",
@@ -375,6 +401,7 @@
     {
       "id": 29,
       "title": "Grip-Lock Chalk Bag",
+      "qnty": 1,
       "category": "Outdoor Equipment",
       "categoryBadge": "Equipment",
       "description": "Fleece-lined interior with a cinched closure to keep your climbing chalk dry.",
@@ -387,6 +414,7 @@
     },
     {
       "id": 30,
+      "qnty": 1,
       "title": "Padded Boxing Gloves",
       "category": "Combat Sports",
       "categoryBadge": "Equipment",
@@ -400,6 +428,7 @@
     },
     {
       "id": 31,
+      "qnty": 1,
       "title": "Flex-Band Wrist Wraps",
       "category": "Lifting Gear",
       "categoryBadge": "Accessories",
@@ -415,6 +444,7 @@
       "id": 32,
       "title": "Infrared Sauna Blanket",
       "category": "Muscle Recovery",
+      "qnty": 1,
       "categoryBadge": "Recovery Tech",
       "description": "Detox and relax with portable far-infrared heat technology.",
       "priceCurrency": "$",
@@ -428,6 +458,7 @@
       "id": 33,
       "title": "Mountain-X Tent",
       "category": "Outdoor Equipment",
+      "qnty": 1,
       "categoryBadge": "Equipment",
       "description": "Ultra-lightweight 2-person tent designed for high-altitude wind resistance.",
       "priceCurrency": "$",
@@ -440,6 +471,7 @@
     {
       "id": 34,
       "title": "Zip-Front Sports Bra",
+      "qnty": 1,
       "category": "Active Apparel",
       "categoryBadge": "Apparel",
       "description": "High-impact support with moisture-wicking panels and easy-on front zipper.",
@@ -453,6 +485,7 @@
     {
       "id": 35,
       "title": "All-Terrain Bicycle",
+      "qnty": 1,
       "category": "Sports Equipment",
       "categoryBadge": "Equipment",
       "description": "Lightweight alloy frame with front suspension and 21-speed gear system.",
@@ -467,6 +500,7 @@
       "id": 36,
       "title": "Grip-Max Climbing Shoes",
       "category": "Performance Footwear",
+      "qnty": 1,
       "categoryBadge": "Footwear",
       "description": "Downturned profile for precision on small footholds and overhangs.",
       "priceCurrency": "$",
@@ -481,6 +515,7 @@
       "title": "Magnetic Weight Plates",
       "category": "Strength Equipment",
       "categoryBadge": "Equipment",
+      "qnty": 1,
       "description": "High-accuracy calibration with magnetic backing for micro-loading your lifts.",
       "priceCurrency": "$",
       "price": 45.0,
@@ -492,6 +527,7 @@
     {
       "id": 38,
       "title": "Seamless Crop Top",
+      "qnty": 1,
       "category": "Active Apparel",
       "categoryBadge": "Apparel",
       "description": "Four-way stretch fabric with zero-chafe seams for yoga and pilates.",
@@ -505,6 +541,7 @@
     {
       "id": 39,
       "title": "Deep-Sleep Eye Mask",
+      "qnty": 1,
       "category": "Muscle Recovery",
       "categoryBadge": "Recovery Tech",
       "description": "Weighted mask with cooling gel to improve REM sleep and reduce puffiness.",
@@ -517,6 +554,7 @@
     },
     {
       "id": 40,
+      "qnty": 1,
       "title": "Quick-Lock Carabiner",
       "category": "Outdoor Equipment",
       "categoryBadge": "Equipment",
@@ -531,6 +569,7 @@
     {
       "id": 41,
       "title": "Ankle Stability Brace",
+      "qnty": 1,
       "category": "Safety Gear",
       "categoryBadge": "Accessories",
       "description": "Rigid side stabilizers to prevent roll and provide support after sprains.",
@@ -546,6 +585,7 @@
       "title": "Hydro-Vest Pack",
       "category": "Bags & Carry",
       "categoryBadge": "Accessories",
+      "qnty": 1,
       "description": "2L bladder capacity with front pockets for energy gels and phone storage.",
       "priceCurrency": "$",
       "price": 95.0,
@@ -559,6 +599,7 @@
       "title": "Performance Sunglasses",
       "category": "Safety Gear",
       "categoryBadge": "Accessories",
+      "qnty": 1,
       "description": "Polarized lenses with a wrap-around frame for panoramic vision and UV protection.",
       "priceCurrency": "$",
       "price": 125.0,
@@ -571,6 +612,7 @@
       "id": 44,
       "title": "Acoustic Noise Buds",
       "category": "Wearable Tech",
+      "qnty": 1,
       "categoryBadge": "Accessories",
       "description": "IPX7 waterproof earbuds with active noise cancellation for focus in the gym.",
       "priceCurrency": "$",
@@ -584,6 +626,7 @@
       "id": 45,
       "title": "Weighted Training Vest",
       "category": "Strength Equipment",
+      "qnty": 1,
       "categoryBadge": "Equipment",
       "description": "10kg adjustable vest for increasing intensity in bodyweight exercises.",
       "priceCurrency": "$",
@@ -597,6 +640,7 @@
       "id": 46,
       "title": "Insulated Thermal Parka",
       "category": "Active Apparel",
+      "qnty": 1,
       "categoryBadge": "Apparel",
       "description": "Synthetic down insulation designed to keep you warm in sub-zero temperatures.",
       "priceCurrency": "$",
@@ -610,6 +654,7 @@
       "id": 47,
       "title": "Microfiber Sports Towel",
       "category": "Hydration Accessories",
+      "qnty": 1,
       "categoryBadge": "Accessories",
       "description": "Dries 10x faster than cotton and folds down to the size of a wallet.",
       "priceCurrency": "$",
@@ -623,6 +668,7 @@
       "id": 48,
       "title": "Foldable Treadmill",
       "category": "Home Gym",
+      "qnty": 1,
       "categoryBadge": "Equipment",
       "description": "Compact design with speed up to 12km/h and built-in heart rate monitors.",
       "priceCurrency": "$",
@@ -636,6 +682,7 @@
       "id": 49,
       "title": "Grip-Strengthener Set",
       "category": "Strength Equipment",
+      "qnty": 1,
       "categoryBadge": "Equipment",
       "description": "Adjustable resistance from 10kg to 60kg to build forearm and hand strength.",
       "priceCurrency": "$",
@@ -650,6 +697,7 @@
       "title": "Recycled Canvas Tote",
       "category": "Bags & Carry",
       "categoryBadge": "Accessories",
+      "qnty": 1,
       "description": "Eco-friendly, heavy-duty canvas for carrying gear or groceries post-workout.",
       "priceCurrency": "$",
       "price": 22.0,
