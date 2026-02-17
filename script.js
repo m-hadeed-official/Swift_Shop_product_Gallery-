@@ -13,6 +13,7 @@ let productGrid = document.getElementById("product-grid");
 let filterSection = document.getElementById("filter-container");
 let productSearchBar = document.getElementById("product-search-bar");
 let cartBadge = document.getElementById("cartBadge");
+
 cartBadge.textContent = cartProducts.length;
 let cart = document.getElementById("cart");
 function makeFilterBtn(obj, target) {
@@ -44,6 +45,9 @@ fetch(categoriesURL)
       makeFilterBtn(element, filterSection);
     });
     filterSection.firstChild.onclick();
+  })
+  .catch((error) => {
+    filterSection.innerHTML = `<div style = 'color :red;font-style:italic' >Error : fetching categories from server failed</div>`;
   });
 
 window.fetchProductsByCat = function (catName, currentBtn) {
@@ -71,6 +75,9 @@ window.fetchProductsByCat = function (catName, currentBtn) {
           makeProductCard(element, productGrid);
         });
       }
+    })
+    .catch(() => {
+      productGrid.innerHTML = `<div style = 'color :red;font-style:italic' >Error : fetching products from server failed</div>`;
     });
 };
 
@@ -95,6 +102,9 @@ window.fetchProductsBySearch = function (searchInp) {
       } else {
         productGrid.innerHTML = "Product Not Found";
       }
+    })
+    .catch(() => {
+      productGrid.innerHTML = `<div style = 'color :red;font-style:italic' >Error : fetching products from server failed</div>`;
     });
 };
 

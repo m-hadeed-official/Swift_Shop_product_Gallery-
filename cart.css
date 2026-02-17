@@ -28,7 +28,7 @@
   background-color: var(--primary);
   padding: 1rem;
   border-radius: 1rem;
-  position: fixed;
+  position: absolute;
   margin: 0 auto;
   z-index: 3;
   right: 3rem;
