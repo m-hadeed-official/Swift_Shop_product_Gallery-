@@ -5,8 +5,10 @@ import addCartItem from "./scripts/addCartItem.js";
 import addCartSummary from "./scripts/addCartSummary.js";
 
 let cartProducts = JSON.parse(localStorage.getItem("cartItems")) || [];
-let categoriesURL = "http://localhost:3000/categories";
-let productsURL = "http://localhost:3000/products";
+let categoriesURL =
+  "https://api.mockfly.dev/mocks/7b3618b5-d94e-4b28-99c9-161807b3c3a3/categories";
+let productsURL =
+  "https://api.mockfly.dev/mocks/7b3618b5-d94e-4b28-99c9-161807b3c3a3/products";
 
 let cartButton = document.getElementById("cart-btn");
 let productGrid = document.getElementById("product-grid");
@@ -41,7 +43,7 @@ fetch(categoriesURL)
     return response.json();
   })
   .then((data) => {
-    data.forEach((element) => {
+    data.categories.forEach((element) => {
       makeFilterBtn(element, filterSection);
     });
     filterSection.firstChild.onclick();
@@ -63,12 +65,14 @@ window.fetchProductsByCat = function (catName, currentBtn) {
       return response.json();
     })
     .then((data) => {
+      console.log(data.products);
+
       if (catName.toLowerCase() === "all") {
-        data.forEach((element) => {
+        data.products.forEach((element) => {
           makeProductCard(element, productGrid);
         });
       } else {
-        let filData = data.filter((element) => {
+        let filData = data.products.filter((element) => {
           return element.categoryBadge === catName;
         });
         filData.forEach((element) => {
@@ -88,7 +92,7 @@ window.fetchProductsBySearch = function (searchInp) {
       return response.json();
     })
     .then((data) => {
-      let filteredData = data.filter((element) => {
+      let filteredData = data.products.filter((element) => {
         let titleLower = element.title.toLowerCase();
         return titleLower.includes(searchInpLower);
       });
@@ -108,45 +112,38 @@ window.fetchProductsBySearch = function (searchInp) {
     });
 };
 
-productSearchBar.addEventListener("input", (e) => {
+productSearchBar.addEventListener("input", () => {
   console.log(productSearchBar.value.toLowerCase());
 
   fetchProductsBySearch(productSearchBar.value.toLowerCase());
 });
 
-window.addToCart = function (id) {
-  fetch(productsURL)
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      let filData = data.filter((element) => element.id == id);
-      let cartProductContains = cartProducts.some(
-        (element) => element.id == id,
-      );
+window.addToCart = function (obj) {
+  let cartProductContains = cartProducts.some(
+    (element) => element.id == obj.id,
+  );
 
-      if (cartProductContains) {
-        console.log("Product Exists");
-      } else {
-        cartProducts.push(filData[0]);
-        localStorage.setItem("cartItems", JSON.stringify(cartProducts));
+  if (cartProductContains) {
+    console.log("Product Exists");
+  } else {
+    cartProducts.push(obj);
+    localStorage.setItem("cartItems", JSON.stringify(cartProducts));
 
-        cartBadge.textContent = cartProducts.length;
+    cartBadge.textContent = cartProducts.length;
 
-        revealCartBody(cartProducts, cart);
-        let cartItemsList = document.getElementById("cart-items-list");
-        let cartSummarySection = document.getElementById("cartSummarySection");
-        addCartSummary(cartProducts, cartSummarySection);
+    revealCartBody(cartProducts, cart);
+    let cartItemsList = document.getElementById("cart-items-list");
+    let cartSummarySection = document.getElementById("cartSummarySection");
+    addCartSummary(cartProducts, cartSummarySection);
 
-        if (cartProducts.length) {
-          cartProducts.forEach((element) => {
-            addCartItem(element, cartItemsList);
-          });
-        } else {
-          cartItemsList.innerHTML = `<h3 class = "empty_cart_msg">Cart Empty....</h3>`;
-        }
-      }
-    });
+    if (cartProducts.length) {
+      cartProducts.forEach((element) => {
+        addCartItem(element, cartItemsList);
+      });
+    } else {
+      cartItemsList.innerHTML = `<h3 class = "empty_cart_msg">Cart Empty....</h3>`;
+    }
+  }
 };
 function revealCart(arr, par) {
   revealCartBody(arr, par);

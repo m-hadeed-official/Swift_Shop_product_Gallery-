@@ -44,7 +44,7 @@ function makeProductCard(obj, target) {
 
   const button = document.createElement("button");
   button.classList.add("add-to-cart-btn");
-  button.onclick = () => addToCart(obj.id);
+  button.onclick = () => addToCart(obj);
 
   const icon = document.createElement("i");
   icon.classList.add("fas", "fa-cart-plus");
