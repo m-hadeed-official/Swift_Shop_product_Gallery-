@@ -18,6 +18,7 @@ let cartBadge = document.getElementById("cartBadge");
 
 cartBadge.textContent = cartProducts.length;
 let cart = document.getElementById("cart");
+let cartWrapper = document.getElementById("cartWrapper");
 function makeFilterBtn(obj, target) {
   target.innerHTML += `<button class="filter-btn" onclick="fetchProductsByCat('${obj.name}' , this)">${obj.name}</button>`;
 }
@@ -145,7 +146,7 @@ window.addToCart = function (obj) {
     }
   }
 };
-function revealCart(arr, par) {
+function revealCart(arr, par, cartWrap) {
   revealCartBody(arr, par);
 
   let cartItemsList = document.getElementById("cart-items-list");
@@ -161,10 +162,10 @@ function revealCart(arr, par) {
   let cartSummarySection = document.getElementById("cartSummarySection");
 
   addCartSummary(arr, cartSummarySection);
-  par.classList.toggle("hidden");
+  cartWrap.classList.toggle("hidden");
 }
 
-cartButton.onclick = () => revealCart(cartProducts, cart);
+cartButton.onclick = () => revealCart(cartProducts, cart, cartWrapper);
 
 window.deleteCartItem = function (objID, target) {
   target.classList.add("delete_animate");

@@ -200,7 +200,7 @@ body {
   transform: scale(1.1);
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 .category-badge {
   position: absolute;
